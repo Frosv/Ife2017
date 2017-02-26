@@ -1,0 +1,31 @@
+.nav{
+  height: 50px;
+  width: 100%;
+  background: #000;
+}
+
+.content-left{
+  /*float: left;*/
+  position: absolute;
+  left: 0;
+  width: 50%;
+  height: 500px;
+  background: #f60;
+}
+
+.content-right{
+  /*float: right;*/
+  position: absolute;
+  right: 0;
+  width: 30%;
+  background: red;
+  height: 500px;
+}
+
+.content{
+  position: relative;
+  width: 1000px;
+  min-width: 1000px;
+  margin: 0 auto;
+}
+
