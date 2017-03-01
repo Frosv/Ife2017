@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+  padding: 0;
+  min-width: 600px;
+}
+
+.main{
+  float: left;
+  width: 100%;
+}
+
+.main_body{
+  margin: 0 130px 0 210px;
+  background: #888;
+  height: 200px;
+  border: 1px solid;
+}
+
+.left{
+  float: left;
+  width: 198px;
+  height: 200px;
+  background: #f60;
+  border:1px solid #000;
+}
+
+.right{
+  float: left;
+  width: 118px;
+  height: 200px;
+  background: #f60;
+  border:1px solid #000;
+}
+
+.left{
+  margin-left: -100%;
+}
+
+.right{
+  margin-left: -120px;
+}
+
+.wrap{
+  padding: 20px;
+  background: #ccc;
+  margin: 20px;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+
+.clearfix {
+  *+height: 1%;
+}
