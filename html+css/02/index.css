@@ -56,3 +56,47 @@ li {
 .clearfix {
   *+height: 1%;
 }
+
+.celan-left{
+  float: left;
+  width: 40%;
+  height: 500px;
+}
+
+.tips{
+  height: 40px;
+  text-align: right;
+  line-height: 40px;
+}
+
+.tips-right{
+  height: 40px;
+  text-align: left;
+  line-height: 40px;
+}
+
+.celan-right{
+  float: right;
+  width: 60%;
+  height: 500px;
+}
+
+.tips-ccc{
+  color: #ccc;
+}
+
+.textarea-box{
+  width: 200px;
+  height: 100px;
+}
+
+.submit{
+  width: 100%;
+  background: blue;
+  display: block;
+  border: 0;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}

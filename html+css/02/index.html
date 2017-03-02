@@ -70,22 +70,54 @@
     </table>
     <h1>celan</h1>
     <h1>chuangkou</h1>
-    <span>请输入邮箱地址</span>
-    <input type="text" placeholder="123">
-    <p>geshishuru</p>
-    <span>请输入邮箱地址</span>
-    <input type="text" placeholder="123">
-    <span>请输入邮箱地址</span>
-    <input type="text" placeholder="123">
-    <p>输入6-16</p>
-    <span>xingbie</span>
-    <label>
-      <input type="checkbox"> 123</label>
-    <label>
-      <input type="checkbox"> 123
-    </label>
+    <div class="celan-left">
+      <ul>
+        <li class="tips">请输入邮箱地址</li>
+        <li class="tips"></li>
+        <li class="tips">请输入邮箱地址</li>
+        <li class="tips">请输入邮箱地址</li>
+        <li class="tips"></li>
+        <li class="tips">性别</li>
+        <li class="tips">city</li>
+        <li class="tips">like</li>
+        <li class="tips">miaoshu</li>
+      </ul>
+    </div>
+    <div class="celan-right">
+      <ul>
+        <li class="tips-right"><input type="text"></li>
+        <li class="tips-right tips-ccc">邮箱地址请按要求格式输入</li>
+        <li class="tips-right"><input type="text"></li>
+        <li class="tips-right"><input type="text"></li>
+        <li class="tips-right tips-ccc">密码请为6-16位英文数字</li>
+        <li class="tips-right">
+          <label><input type="radio" name="s">男</label>
+          <label><input type="radio" name="s">女</label>
+        </li>
+        <li class="tips-right">
+          <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </li>
+        <li class="tips-right">
+          <label><input type="checkbox" name="city">papapa</label>
+          <label><input type="checkbox" name="city">女</label>
+        </li>
+        <li>
+          <textarea class="textarea-box"></textarea>
+        </li>
+      </ul>
+    </div>
+    <button class="submit" onclick="btn()">Submit</button>
   </div>
   <P>BANQUANSUOYOU</P>
+  <script type="text/javascript">
+  function btn(){
+    console.log(1)
+  }
+  </script>
 </body>
 
 </html>
